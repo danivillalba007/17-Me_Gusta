@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+}
+
+header h2 {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+header p {
+    text-align: center;
+    font-size: xx-large;
+}
+
+aside {
+    border: 1px solid black;
+    margin: 0px 30px 98px 00px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 23px 23px 23px 23px;
+}
+
+aside img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 300px;
+    width: 516px;
+}
+
+.box-section {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.nombre-like {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+section button {
+    background-color: #ffd966;
+    height: 29px;
+    width: 99px;
+    margin-top: 5px;
+}
